@@ -12,7 +12,7 @@ function Search() {
   const [nutritionInfo, setNutritionInfo] = useState(null);
   const [notFound, setNotFound] = useState(false);
 
-  const API_KEY = 'f8zmBkfwODgKdj3Q96xQpkyRUhvcNDfVr9oBpANO';
+  const API_KEY = ' '; // input your api key 
 
   useEffect(() => {
     setNotFound(false); // Reset notFound state when query changes
